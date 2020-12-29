@@ -150,7 +150,6 @@ html {
 footer {
   background-color: #3e5e94;
   padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 footer h1 {
@@ -180,4 +179,13 @@ p{
     font-weight: 500;
     font-size: 1.8rem;
     text-align: justify;
+}
+
+.beian{
+  padding-top: 1rem;
+}
+.beian p{
+  color: darkgray;
+  font-size: 1rem;
+  text-align: center;
 }
