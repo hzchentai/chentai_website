@@ -29,7 +29,7 @@ html {
 
 .intro-section {
   height: 100%;
-  padding-top: 32rem;
+  padding-top: 15%;
   text-align: center;
   background-image: url(../images/banner.jpg);
   background-repeat:no-repeat;
@@ -44,7 +44,7 @@ html {
 }
 
 .motto {
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .about-section {
@@ -188,10 +188,14 @@ p{
 
 .beian{
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .beian p{
-  color: darkgray;
-  font-size: 1rem;
+  height:20px;
+  line-height:20px;
+  margin: 0px 0px 0px 5px; 
+  color:#939393;
   text-align: center;
+  font-size: 13px;
 }
