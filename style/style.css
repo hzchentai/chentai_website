@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  padding:9rem 1rem;
+  transition: 0.5s;
+  position: fixed;
+  width:100%;
+}
+
+.navbar-right a {
+  float: right;
+}
+
+.intro {
+  background-image: url('../images/banner.jpg');
+  text-align: center;
+  height: 55vh;
+  padding-top: 45vh;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.box {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid black;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  position: absolute;        /* 使用绝对定位 */
+  left: 50%;
+  transform: translate(-50%, 0);    /* 水平居中 */
+  margin-top: -1.6rem;
+}
